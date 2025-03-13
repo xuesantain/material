@@ -3,7 +3,7 @@ import gymnasium
 import tmm_fast.gym_multilayerthinfilm as mltf
 import matplotlib.pyplot as plt
 from copy import deepcopy
-from materials_config import AVAILABLE_MATERIALS
+from modules.materials_config import AVAILABLE_MATERIALS
 import random
 import os
 import time

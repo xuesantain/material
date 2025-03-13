@@ -39,7 +39,7 @@ def main():
         }
         
         # 第一阶段：选择材料
-        num_layers = 8  # 明确设置层数
+        num_layers = 10  # 明确设置层数
         material_optimizer = MaterialOptimizer(target_reflection, num_layers=num_layers)
         best_materials = material_optimizer.optimize_materials()
         print("最优材料序列:", best_materials)

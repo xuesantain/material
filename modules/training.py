@@ -67,8 +67,8 @@ def train_model(env, continue_training=False):
                    device=device)  # 指定设备
 
     # 设置总步数
-    total_timesteps = 7280  # 增加训练步数以允许更多探索
-    n_iterations = 30
+    total_timesteps = 3000  # 增加训练步数以允许更多探索
+    n_iterations = 15
     timesteps_per_iteration = total_timesteps // n_iterations
     
     # 跟踪已执行的总步数

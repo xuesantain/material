@@ -1,6 +1,6 @@
 import random
 import numpy as np
-from materials_config import AVAILABLE_MATERIALS
+from modules.materials_config import AVAILABLE_MATERIALS
 from modules.env import ThicknessOptimizationEnv
 
 class MaterialOptimizer:
