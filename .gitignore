@@ -44,7 +44,23 @@ Thumbs.db
 *.seed
 *.pid.lock
 
-# Model files
+# Model and generated files
 *.pth
 *.h5
-*.ckpt 
+*.ckpt
+*.zip
+best_model*
+thickness_optimization_tensorboard/
+runingresult/
+model_config.json
+
+# Tensorboard
+events.out.tfevents.*
+
+# Generated plots and results
+*.png
+*.jpg
+*.jpeg
+*.pdf
+results/
+output/ 
