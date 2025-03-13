@@ -1,0 +1,46 @@
+{
+    "target_specs": {
+        "high_reflection": {
+            "wavelength": [
+                [
+                    3.8e-07,
+                    8e-07
+                ],
+                [
+                    5e-06,
+                    8e-06
+                ]
+            ],
+            "target": 5.0
+        }
+    },
+    "materials": [
+        "W",
+        "Ge",
+        "SiO2"
+    ],
+    "fixed_order": [
+        2,
+        1,
+        2,
+        1
+    ],
+    "material_paths": [
+        "C:/Users/Lenovo/Desktop/file/program/material/tmm_fast-main/tmm_fast/materials/nW.txt",
+        "C:/Users/Lenovo/Desktop/file/program/material/tmm_fast-main/tmm_fast/materials/nGe.txt",
+        "C:/Users/Lenovo/Desktop/file/program/material/tmm_fast-main/tmm_fast/materials/nSiO2-2.txt"
+    ],
+    "best_mse": 0.12315356549329934,
+    "best_thicknesses": [
+        1.610228110848766e-07,
+        2.8099620408283954e-07,
+        5.074694797713164e-08,
+        4.130810111746541e-07
+    ],
+    "best_reward": 0.14067289439919833,
+    "wavelength_range": {
+        "min": 3.8e-07,
+        "max": 1.4000000000000001e-05,
+        "points": 1363
+    }
+}
